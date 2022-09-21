@@ -43,7 +43,7 @@ const jobsController = {
 
     try {
       const job = await Job.findByPk(id, { include: ['company', 'candidates' ]})
-      const candidatesCount = await job?.countCandidates() // Before count, analise with job exists (?)
+      const candidatesCount = await job?.countCandidates() // Before count, analise if job exists (?)
 
       if (job === null) return res.status(404).json({ message: 'Vaga de emprego não encontrada' })
       
