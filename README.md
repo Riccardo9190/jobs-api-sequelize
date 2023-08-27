@@ -25,4 +25,4 @@ To run this API locally you need to have [Docker](https://www.docker.com/) runni
 
 ## Database Structure:
 
-<img src='https://github.com/Riccardo9190/jobs-api-sequelize/blob/master/public/jobs_api_database_structure.png' />
+<img src='https://github.com/Riccardo9190/jobs-api-sequelize/blob/master/public/database_structure.png' />
