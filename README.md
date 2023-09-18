@@ -7,7 +7,6 @@ A jobs and candidates API using Typescript, Express and Sequelize.
 - Express
 - Typescript
 - PostgreSQL
-- Sequelize
 
 ### To Run Locally
 
